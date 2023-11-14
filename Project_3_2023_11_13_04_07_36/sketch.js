@@ -43,7 +43,7 @@ function draw() {
 }
 
 function splashScreen() {
-  background(255);
+  background("lavender");
   fill(0);
   textSize(60);
   textFont('Muloka Kerash');
@@ -62,79 +62,4 @@ function splashScreen() {
 
 function mouseClicked () {
   state = 1;
-}
-
-function keyPressed() {
-  if (keyCode === UP_ARROW) {
-    state = 2;
-  } else if (keyCode === DOWN_ARROW) {
-    state = 3;
-  } else if (keyCode === LEFT_ARROW) {
-    state = 4;
-  } else if (keyCode === RIGHT_ARROW) {
-    state = 5;
-  } else if (keyCode === 32) {
-    state = 6;
-  }
-}
-
-function classicSongScreen() {
-  background(190);
-  //music1.play();
-  //music1.loop = true;
-  fill(0);
-  textSize(60);
-  textFont('DIN');
-  text("9 to 5", width / 2, 60);
-}
-
-function metalSongScreen() {
-  background(0);
-  //music2.loop = true;
-  //music2.play();
-  fill(255);
-  textSize(60);
-  textFont('Metalista');
-  text("Feel Invincible", width / 2, 60);
-}
-
-function rockSongScreen() {
-  background(229, 57, 53);
-  //music3.loop = true;
-  //music3.play();
-  fill(0);
-  textSize(60);
-  textFont('Rockinline');
-  text("Rock This Town", width / 2, 60);
-}
-
-function popSongScreen() {
-  background(250, 211, 225);
-  //music4.loop = true;
-  //music4.play();
-  fill(0);
-  textSize(60);
-  textFont('mvboli');
-  text("Happier", width / 2, 60);
-}
-
-function CountrySongScreen() {
-  background(224, 196, 153);
-  //music5.loop = true;
-  //music5.play();
-  fill(0);
-  textSize(60);
-  textFont('barbaro punta');
-  text("Country Boy", width / 2, 60);
-  text("(Shake It For Me)", width / 2, 120)
-}
-
-function CelticSongScreen() {
-  background(133, 200, 136);
-  //music6.loop = true;
-  //music6.play();
-  fill(0);
-  textSize(60);
-  textFont('CELTG');
-  text("Ballroom of Romance", width / 2, 60);
 }
