@@ -310,3 +310,9 @@ function coverSet () {
   image(cover5, 50, height/2+120, 50,50);
   image(cover6, 50, height/2+200, 50,50);
 }
+
+function deleteCommand () {
+  textAlign(CENTER);
+  fill(255);
+  text('Detete = Stop', 750, 550);
+}
