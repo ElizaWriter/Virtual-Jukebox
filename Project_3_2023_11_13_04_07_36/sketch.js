@@ -312,7 +312,7 @@ function coverSet () {
 }
 
 function deleteCommand () {
-  textAlign(CENTER);
-  fill(255);
-  text('Detete = Stop', 750, 550);
+  // textAlign(CENTER);
+  // fill(255);
+  // text('Detete = Stop', 750, 550);
 }
